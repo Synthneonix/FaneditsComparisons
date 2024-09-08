@@ -1,0 +1,14 @@
+/* css/styles.css */
+
+/* Hide elements with this class */
+.hidden {
+    display: none;
+}
+
+/* Optional: Style the toggle button */
+#toggleButton {
+    margin-bottom: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}

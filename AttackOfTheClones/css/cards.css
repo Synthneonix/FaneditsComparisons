@@ -1,0 +1,46 @@
+/* css/cards.css */
+
+/* Container for editor cards */
+.editor-grid {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+    transition: max-height 0.3s ease;
+    max-height: 600px; /* Adjust as needed */
+    overflow: hidden;
+}
+
+/* Hide the container with the hidden class */
+.editor-grid.hidden {
+    max-height: 0;
+}
+
+/* Individual editor card styles */
+.editor-card {
+    position: relative;
+    overflow: hidden;
+    background: #1a1a1a;
+    border: 1px solid #444;
+    border-radius: 8px;
+    width: 300px;
+    height: 450px;
+    cursor: pointer;
+    transition: transform 0.3s ease, border 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    margin: 0;
+}
+
+/* css/styles.css */
+
+/* Hide elements with this class */
+.hidden {
+    display: none;
+}
+
+/* Optional: Style the toggle button */
+#toggleButton {
+    margin-bottom: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
